@@ -1,0 +1,30 @@
+xst -intstyle ise -ifn "E:/Xilinx/MIPS/datapath.xst" -ofn "E:/Xilinx/MIPS/datapath.syr" 
+xst -intstyle ise -ifn "E:/Xilinx/MIPS/datapath.xst" -ofn "E:/Xilinx/MIPS/datapath.syr" 
+xst -intstyle ise -ifn "E:/Xilinx/MIPS/datapath.xst" -ofn "E:/Xilinx/MIPS/datapath.syr" 
+xst -intstyle ise -ifn "E:/Xilinx/MIPS/datapath.xst" -ofn "E:/Xilinx/MIPS/datapath.syr" 
+xst -intstyle ise -ifn "E:/Xilinx/MIPS/datapath.xst" -ofn "E:/Xilinx/MIPS/datapath.syr" 
+xst -intstyle ise -ifn "E:/Xilinx/MIPS/datapath.xst" -ofn "E:/Xilinx/MIPS/datapath.syr" 
+xst -intstyle ise -ifn "E:/Xilinx/MIPS/datapath.xst" -ofn "E:/Xilinx/MIPS/datapath.syr" 
+xst -intstyle ise -ifn "E:/Xilinx/MIPS/datapath.xst" -ofn "E:/Xilinx/MIPS/datapath.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 datapath.ngc datapath.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o datapath_map.ncd datapath.ngd datapath.pcf 
+par -w -intstyle ise -ol high -mt off datapath_map.ncd datapath.ncd datapath.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml datapath.twx datapath.ncd -o datapath.twr datapath.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 datapath.ngc datapath.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o datapath_map.ncd datapath.ngd datapath.pcf 
+par -w -intstyle ise -ol high -mt off datapath_map.ncd datapath.ncd datapath.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml datapath.twx datapath.ncd -o datapath.twr datapath.pcf 
+xst -intstyle ise -ifn "C:/Users/SIVEEN/Desktop/New Listening Book  Audios (March 2018) - Copy/MIPS/datapath.xst" -ofn "C:/Users/SIVEEN/Desktop/New Listening Book  Audios (March 2018) - Copy/MIPS/datapath.syr" 
+xst -intstyle ise -ifn "C:/Users/SIVEEN/Desktop/New Listening Book  Audios (March 2018) - Copy/MIPS/datapath.xst" -ofn "C:/Users/SIVEEN/Desktop/New Listening Book  Audios (March 2018) - Copy/MIPS/datapath.syr" 
+xst -intstyle ise -ifn "C:/Users/SIVEEN/Desktop/New Listening Book  Audios (March 2018) - Copy/MIPS/datapath.xst" -ofn "C:/Users/SIVEEN/Desktop/New Listening Book  Audios (March 2018) - Copy/MIPS/datapath.syr" 
+vhdtdtfi -lib work MUX.vhd -lib work flp.vhd -lib work dec_5x32.vhd -lib work DataPathPackage.vhd -lib work SL2.vhd -lib work signext.vhd -lib work regfile.vhd -lib work mux2.vhd -lib work Flopr.vhd -lib work alu.vhd -lib work adder.vhd -lib work dataPath.vhd -prj MIPS -o datapath.spl -module datapath -template E:/SIVEEN/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work MUX.vhd -lib work flp.vhd -lib work dec_5x32.vhd -lib work DataPathPackage.vhd -lib work SL2.vhd -lib work signext.vhd -lib work regfile.vhd -lib work mux2.vhd -lib work Flopr.vhd -lib work alu.vhd -lib work adder.vhd -lib work dataPath.vhd -prj MIPS -o datapath.spl -module datapath -template E:/SIVEEN/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+xst -intstyle ise -ifn "E:/MIPS/datapath.xst" -ofn "E:/MIPS/datapath.syr" 
+xst -intstyle ise -ifn "C:/Users/SIVEEN/Desktop/images/MIPS/Datapath.xst" -ofn "C:/Users/SIVEEN/Desktop/images/MIPS/Datapath.syr" 
+xst -intstyle ise -ifn "C:/Users/SIVEEN/Desktop/images/MIPS/Datapath.xst" -ofn "C:/Users/SIVEEN/Desktop/images/MIPS/Datapath.syr" 
+xst -intstyle ise -ifn "E:/MIPS/Datapath.xst" -ofn "E:/MIPS/Datapath.syr" 
+xst -intstyle ise -ifn "E:/MIPS/Datapath.xst" -ofn "E:/MIPS/Datapath.syr" 
+xst -intstyle ise -ifn "E:/MIPS/Datapath.xst" -ofn "E:/MIPS/Datapath.syr" 
+xst -intstyle ise -ifn "E:/MIPS/Datapath.xst" -ofn "E:/MIPS/Datapath.syr" 
+xst -intstyle ise -ifn "E:/MIPS/Datapath.xst" -ofn "E:/MIPS/Datapath.syr" 
+xst -intstyle ise -ifn "E:/MIPS/Datapath.xst" -ofn "E:/MIPS/Datapath.syr" 

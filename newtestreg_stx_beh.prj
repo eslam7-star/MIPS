@@ -1,0 +1,6 @@
+vhdl isim_temp "MUX.vhd"
+vhdl isim_temp "flp.vhd"
+vhdl isim_temp "dec_5x32.vhd"
+vhdl isim_temp "DataPathPackage.vhd"
+vhdl isim_temp "regfile.vhd"
+vhdl isim_temp "newtestreg.vhd"

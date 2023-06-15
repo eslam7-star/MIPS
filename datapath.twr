@@ -1,0 +1,183 @@
+--------------------------------------------------------------------------------
+Release 14.5 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+E:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml datapath.twx datapath.ncd -o datapath.twr datapath.pcf
+
+Design file:              datapath.ncd
+Physical constraint file: datapath.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (PRODUCTION 1.08 2013-03-26)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+aluoperation<0>|aluout<0>      |    6.460|
+aluoperation<0>|aluout<1>      |    6.335|
+aluoperation<0>|aluout<2>      |    6.670|
+aluoperation<0>|aluout<3>      |    5.989|
+aluoperation<0>|aluout<4>      |    6.293|
+aluoperation<0>|aluout<5>      |    6.592|
+aluoperation<0>|aluout<6>      |    6.273|
+aluoperation<0>|aluout<7>      |    6.207|
+aluoperation<0>|aluout<8>      |    5.878|
+aluoperation<0>|aluout<9>      |    6.122|
+aluoperation<0>|aluout<10>     |    5.642|
+aluoperation<0>|aluout<11>     |    5.990|
+aluoperation<0>|aluout<12>     |    5.721|
+aluoperation<0>|aluout<13>     |    5.770|
+aluoperation<0>|aluout<14>     |    5.772|
+aluoperation<0>|aluout<15>     |    6.217|
+aluoperation<0>|aluout<16>     |    6.070|
+aluoperation<0>|aluout<17>     |    6.466|
+aluoperation<0>|aluout<18>     |    6.119|
+aluoperation<0>|aluout<19>     |    6.097|
+aluoperation<0>|aluout<20>     |    6.209|
+aluoperation<0>|aluout<21>     |    5.887|
+aluoperation<0>|aluout<22>     |    5.859|
+aluoperation<0>|aluout<23>     |    6.404|
+aluoperation<0>|aluout<24>     |    6.787|
+aluoperation<0>|aluout<25>     |    6.246|
+aluoperation<0>|aluout<26>     |    6.846|
+aluoperation<0>|aluout<27>     |    6.662|
+aluoperation<0>|aluout<28>     |    6.389|
+aluoperation<0>|aluout<29>     |    6.063|
+aluoperation<0>|aluout<30>     |    6.106|
+aluoperation<0>|aluout<31>     |    6.907|
+aluoperation<0>|zero           |    8.574|
+aluoperation<1>|aluout<0>      |    6.568|
+aluoperation<1>|aluout<1>      |    6.251|
+aluoperation<1>|aluout<2>      |    6.513|
+aluoperation<1>|aluout<3>      |    5.918|
+aluoperation<1>|aluout<4>      |    6.213|
+aluoperation<1>|aluout<5>      |    6.398|
+aluoperation<1>|aluout<6>      |    6.023|
+aluoperation<1>|aluout<7>      |    5.947|
+aluoperation<1>|aluout<8>      |    5.881|
+aluoperation<1>|aluout<9>      |    5.935|
+aluoperation<1>|aluout<10>     |    5.729|
+aluoperation<1>|aluout<11>     |    5.676|
+aluoperation<1>|aluout<12>     |    5.857|
+aluoperation<1>|aluout<13>     |    6.088|
+aluoperation<1>|aluout<14>     |    6.093|
+aluoperation<1>|aluout<15>     |    6.032|
+aluoperation<1>|aluout<16>     |    6.282|
+aluoperation<1>|aluout<17>     |    6.250|
+aluoperation<1>|aluout<18>     |    5.809|
+aluoperation<1>|aluout<19>     |    6.099|
+aluoperation<1>|aluout<20>     |    6.335|
+aluoperation<1>|aluout<21>     |    6.061|
+aluoperation<1>|aluout<22>     |    5.716|
+aluoperation<1>|aluout<23>     |    6.302|
+aluoperation<1>|aluout<24>     |    6.276|
+aluoperation<1>|aluout<25>     |    6.367|
+aluoperation<1>|aluout<26>     |    6.817|
+aluoperation<1>|aluout<27>     |    6.484|
+aluoperation<1>|aluout<28>     |    6.409|
+aluoperation<1>|aluout<29>     |    5.793|
+aluoperation<1>|aluout<30>     |    6.143|
+aluoperation<1>|aluout<31>     |    6.426|
+aluoperation<1>|zero           |    8.358|
+aluoperation<2>|aluout<0>      |    9.260|
+aluoperation<2>|aluout<1>      |    8.400|
+aluoperation<2>|aluout<2>      |    8.589|
+aluoperation<2>|aluout<3>      |    8.374|
+aluoperation<2>|aluout<4>      |    8.481|
+aluoperation<2>|aluout<5>      |    8.435|
+aluoperation<2>|aluout<6>      |    8.273|
+aluoperation<2>|aluout<7>      |    8.256|
+aluoperation<2>|aluout<8>      |    8.195|
+aluoperation<2>|aluout<9>      |    8.192|
+aluoperation<2>|aluout<10>     |    8.336|
+aluoperation<2>|aluout<11>     |    8.050|
+aluoperation<2>|aluout<12>     |    8.471|
+aluoperation<2>|aluout<13>     |    8.428|
+aluoperation<2>|aluout<14>     |    8.330|
+aluoperation<2>|aluout<15>     |    8.312|
+aluoperation<2>|aluout<16>     |    8.250|
+aluoperation<2>|aluout<17>     |    8.484|
+aluoperation<2>|aluout<18>     |    8.690|
+aluoperation<2>|aluout<19>     |    8.714|
+aluoperation<2>|aluout<20>     |    8.842|
+aluoperation<2>|aluout<21>     |    9.036|
+aluoperation<2>|aluout<22>     |    8.615|
+aluoperation<2>|aluout<23>     |    9.198|
+aluoperation<2>|aluout<24>     |    9.167|
+aluoperation<2>|aluout<25>     |    9.127|
+aluoperation<2>|aluout<26>     |    9.429|
+aluoperation<2>|aluout<27>     |    9.437|
+aluoperation<2>|aluout<28>     |    9.258|
+aluoperation<2>|aluout<29>     |    9.351|
+aluoperation<2>|aluout<30>     |    9.012|
+aluoperation<2>|aluout<31>     |    9.565|
+aluoperation<2>|zero           |   10.700|
+aluoperation<3>|aluout<0>      |    8.761|
+aluoperation<3>|aluout<1>      |    7.910|
+aluoperation<3>|aluout<2>      |    8.082|
+aluoperation<3>|aluout<3>      |    7.867|
+aluoperation<3>|aluout<4>      |    7.982|
+aluoperation<3>|aluout<5>      |    7.936|
+aluoperation<3>|aluout<6>      |    7.774|
+aluoperation<3>|aluout<7>      |    7.757|
+aluoperation<3>|aluout<8>      |    7.696|
+aluoperation<3>|aluout<9>      |    7.693|
+aluoperation<3>|aluout<10>     |    7.837|
+aluoperation<3>|aluout<11>     |    7.551|
+aluoperation<3>|aluout<12>     |    7.972|
+aluoperation<3>|aluout<13>     |    7.929|
+aluoperation<3>|aluout<14>     |    7.831|
+aluoperation<3>|aluout<15>     |    7.813|
+aluoperation<3>|aluout<16>     |    7.751|
+aluoperation<3>|aluout<17>     |    7.985|
+aluoperation<3>|aluout<18>     |    8.191|
+aluoperation<3>|aluout<19>     |    8.215|
+aluoperation<3>|aluout<20>     |    8.343|
+aluoperation<3>|aluout<21>     |    8.537|
+aluoperation<3>|aluout<22>     |    8.116|
+aluoperation<3>|aluout<23>     |    8.699|
+aluoperation<3>|aluout<24>     |    8.668|
+aluoperation<3>|aluout<25>     |    8.628|
+aluoperation<3>|aluout<26>     |    8.930|
+aluoperation<3>|aluout<27>     |    8.938|
+aluoperation<3>|aluout<28>     |    8.759|
+aluoperation<3>|aluout<29>     |    8.852|
+aluoperation<3>|aluout<30>     |    8.513|
+aluoperation<3>|aluout<31>     |    9.066|
+aluoperation<3>|zero           |   10.201|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Apr 27 21:08:23 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 611 MB
+
+
+

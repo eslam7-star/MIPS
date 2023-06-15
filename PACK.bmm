@@ -1,0 +1,11 @@
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+
+
+PACKAGE MyPackage iscomponent flopr is
+generic (n : NATURAL := 32);port(clk, reset: in STD_LOGIC;
+d: in STD_LOGIC_VECTOR(n-1 downto 0);q: out STD_LOGIC_VECTOR(n-1 downto 0));
+end Component;
+end Behavioral;

@@ -1,0 +1,4 @@
+vhdl work "maindec.vhd"
+vhdl work "DataPathPackage.vhd"
+vhdl work "AluDec.vhd"
+vhdl work "Controller.vhd"
